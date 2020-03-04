@@ -26,7 +26,7 @@ const onSubmit = data => {
       <label>email</label>
       <input name="email" ref={register ({required: true, minLength:10})}/>
       {errors.email && <p>this is required</p>}
-      
+
       <label>about you</label>
       <textarea name="aboutyou" ref={register ({required: true, minLength:10})}/>
 
